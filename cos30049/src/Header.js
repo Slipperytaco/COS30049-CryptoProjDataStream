@@ -15,6 +15,7 @@ import AccountCircle from '@mui/icons-material/AccountCircle';
 import MailIcon from '@mui/icons-material/Mail';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import MoreIcon from '@mui/icons-material/MoreVert';
+import CurrencyBitcoinSharpIcon from '@mui/icons-material/CurrencyBitcoinSharp';
 
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
@@ -130,10 +131,10 @@ export default function PrimarySearchAppBar() {
       <MenuItem>
         <IconButton
           size="large"
-          aria-label="show 17 new notifications"
+          aria-label="show 5 new notifications"
           color="inherit"
         >
-          <Badge badgeContent={17} color="error">
+          <Badge badgeContent={2} color="error">
             <NotificationsIcon />
           </Badge>
         </IconButton>
@@ -173,7 +174,7 @@ export default function PrimarySearchAppBar() {
             component="div"
             sx={{ display: { xs: 'none', sm: 'block' } }}
           >
-            MUI
+            M
           </Typography>
           <Search>
             <SearchIconWrapper>
